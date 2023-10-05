@@ -9,16 +9,48 @@
     margin-bottom: 30px;
 }
 .titleH2 {
+    margin-bottom: 1em;
+}
+.italic{
     font-style: italic;
 }
-
+.grey{
+    color: grey;
+    font-size: 0.7rem;
+}
 .lineDiv{
     margin: auto;
     margin-top: 30px;
 }
+h3{
+    min-width: 200px;
+    
+}
 /*---  ---  ---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
 /*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
 
+/*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+/*---  ---  ---  --- Estilo compartido por Experiencia y Educacion ---  ---  ---  ---  ---  ---*/
+.item{
+    padding: 0.5em;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+.descriptionItem{
+    margin: auto;
+}
+
+
+@media only screen and (width >= 375px) {
+    .descriptionItem{
+        max-width: 425px;
+    }
+}
+
+/*---  ---  ---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+/*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
 
 @media only screen and (width >= 600px){
     /*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
@@ -31,6 +63,20 @@
     }
     /*---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
 
+    ul{
+        list-style-type: circle;
+    }
+    .item{
+        display: flex;
+        gap: 30px;
+    }
+
+}
+
+@media only screen and (width >= 650px){
+    .descriptionItem{
+        max-width: 100%;
+    }
 }
 
 @media only screen and (width >= 900px){
