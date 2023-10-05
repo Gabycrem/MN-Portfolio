@@ -13,6 +13,7 @@ import { EducationComponent } from './components/education/education.component';
 import { HardSoftSkillComponent } from './components/hard-soft-skill/hard-soft-skill.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
