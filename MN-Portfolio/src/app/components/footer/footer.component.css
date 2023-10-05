@@ -1,0 +1,21 @@
+@import url(../../../styles.css);
+
+footer{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#oneLine{
+    display: none;
+}
+
+@media only screen and (width >= 768px){
+    #oneLine{
+        display:block;
+    }
+    #twoLine{
+        display: none;
+    }
+}

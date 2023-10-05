@@ -8,6 +8,11 @@ import { LogoComponent } from './components/logo/logo.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
+import { HardSoftSkillComponent } from './components/hard-soft-skill/hard-soft-skill.component';
+import { ProyectComponent } from './components/proyect/proyect.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     LogoComponent,
     SocialComponent,
     BannerComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ExperienceComponent,
+    EducationComponent,
+    HardSoftSkillComponent,
+    ProyectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

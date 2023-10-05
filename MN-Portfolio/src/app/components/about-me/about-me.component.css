@@ -53,11 +53,9 @@
 .up{
     position: relative;
     top: -30px;
+    width: 100%;
 }
 
-.down{
-    bottom: 30px; 
-}
 
 @media only screen and (width >= 375px) {
     #profilePicture {

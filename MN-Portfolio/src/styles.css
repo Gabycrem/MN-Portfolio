@@ -4,8 +4,7 @@
     box-sizing: border-box;
     background-color: #e6a6f5;
     font-family: 'Comic Neue', cursive;
-font-family: 'IBM Plex Mono', monospace;
-    
+    font-family: 'IBM Plex Mono', monospace;
 }
 body{
     background-image: url('./assets/banner.jpg');
@@ -14,6 +13,7 @@ body{
 .lineDiv{
     border-bottom: 2px solid #eccbf4;
     width: 90%;
+    position: relative;
 }
 
 @media only screen and (width >=768px){

@@ -1,0 +1,46 @@
+@import url(../../../styles.css);
+
+/*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+/*---  ---  ---  ---  Estilo compartido por todos los Componentes  ---  ---  ---  ---  ---  ---*/
+.experience, .education, 
+.hardSoftSkill, .proyects{
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titleH2 {
+    font-style: italic;
+}
+
+.lineDiv{
+    margin: auto;
+    margin-top: 30px;
+}
+/*---  ---  ---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+/*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+
+
+@media only screen and (width >= 600px){
+    /*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+    /*---  ---  ---  Estilo compartido por todos los Componentes  ---  ---  ---  ---  ---*/
+    .experience, .education, 
+    .hardSoftSkill, .proyects{
+        margin-left: 6%;
+        margin-right: 6%;
+        text-align: left;
+    }
+    /*---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+
+}
+
+@media only screen and (width >= 900px){
+    /*---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+    /*---  ---  ---  Estilo compartido por todos los Componentes  ---  ---  ---  ---  ---*/
+    .experience, .education, 
+    .hardSoftSkill, .proyects{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    /*---  ---  ---  ---  FIN COMPARTIDO ---  ---  ---  ---  ---  ---  ---  ---  ---  ---*/
+
+}
